@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checking test for SideBar 1`] = `
+<div
+  className="category-container"
+>
+  <ul
+    className="category-list"
+  />
+</div>
+`;

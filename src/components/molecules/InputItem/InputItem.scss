@@ -1,0 +1,40 @@
+.input-item {
+    color: rgb(173, 168, 165);
+
+    label {
+        display: block;
+        margin-top: 1em;
+    }
+
+    input {
+        display: block;
+        width: 90%;
+        border: none;
+        border-bottom: 1px solid rgb(173, 168, 165);
+        outline: 0;
+        margin-bottom: 0.4em;
+        }
+
+    &:focus-within {
+        color: #22bbd6;
+
+        input {
+            border-bottom: 1px solid #22bbd6;
+        }
+
+    }
+
+}
+
+.input-icon {
+    position: absolute;
+    color: crimson;
+    margin-top: -2px;
+}
+
+.form-error {
+    color: crimson;
+    margin-bottom: 0.4em;
+    margin-top: 0.2em;
+    font-size: small;
+}

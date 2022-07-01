@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cart Item Counter Component should have the right cart item component snapshot 1`] = `
+<div>
+  <button
+    className="btn-cart-qty"
+    onClick={[Function]}
+    type="button"
+  >
+    -
+  </button>
+  <span
+    className="item-quantity"
+    data-testid="item-count"
+  >
+    1
+  </span>
+  <button
+    className="btn-cart-qty"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    +
+  </button>
+  <span
+    className="item-price-multiply"
+    data-testid="item-multiply"
+  >
+    X 
+  </span>
+  <span
+    className="item-price"
+    data-testid="price"
+  >
+    Rs.187
+  </span>
+  <span
+    className="item-total-price"
+    data-testid="total-price"
+  >
+     
+    Rs.187
+  </span>
+</div>
+`;

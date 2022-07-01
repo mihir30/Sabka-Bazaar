@@ -1,0 +1,43 @@
+$color-white: white;
+$background-color-pink: #cc0044;
+
+.item-quantity {
+    padding: 15px;
+    font-weight: bold;
+}
+
+.item-price {
+    font-weight: bold;
+}
+
+.item-price-multiply {
+    margin: 7px;
+    font-weight: bold;
+}
+
+.item-total-price {
+    margin-left: 40px;
+    font-weight: bold;
+}
+
+.btn-cart-qty {
+    background-color: $background-color-pink;
+    width: 30px;
+    border-radius: 5px;
+    margin: 15px 0 0 0;
+    color: $color-white;
+    border: 2px solid #cc0044;
+    font-size: 18px;
+}
+
+@media only screen and (min-width: 1024px) {
+    .btn-cart-qty {
+        background-color: $background-color-pink;
+        width: 30px;
+        border-radius: 50%;
+        margin: 15px 0 0 0;
+        color: $color-white;
+        border: 2px solid #cc0044;
+        font-size: 18px;
+    }
+}

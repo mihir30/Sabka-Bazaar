@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cart Header Component should have the right cart header component snapshot 1`] = `
+Array [
+  <div
+    className="cart-btn"
+  >
+    <a
+      className="nav-cart-items"
+      href="/cartItems"
+      onClick={[Function]}
+    >
+      <button
+        className="btn-cart-button"
+        onClick={[Function]}
+        type="button"
+      >
+        <img
+          alt="cart"
+          className="cart"
+          data-testid="image"
+          src="cart.svg"
+        />
+        <span
+          className="cart-quantity"
+          data-testid="count-items"
+        >
+          0 items
+        </span>
+      </button>
+    </a>
+  </div>,
+  <div
+    className="cart-modal-overlay"
+  >
+    <div
+      className="cart-modal"
+    >
+      <div
+        className="minicart-modal-background"
+      >
+        <div
+          className="minicart-empty"
+        >
+          <div
+            className="cart-quantity-tile"
+          >
+            <p>
+              <strong
+                data-testid="my-cart-text"
+              >
+                My Cart 
+              </strong>
+            </p>
+          </div>
+          <div
+            className="cart-quantity-tile-modal"
+          >
+            <p>
+              <strong
+                data-testid="my-cart-text-modal"
+              >
+                My Cart 
+              </strong>
+            </p>
+            <i
+              className="fas fa-times"
+              id="close-btn-empty-cart"
+              onClick={[Function]}
+            />
+          </div>
+          <div>
+            <p
+              className="empty-cart-text"
+              data-testid="no-items"
+            >
+              No items in your cart
+            </p>
+            <p
+              className="empty-cart-desc"
+              data-testid="fav-items"
+            >
+              Your favourite items are just a click away
+            </p>
+          </div>
+          <div
+            className="checkout-empty-tile"
+          >
+            <div>
+              <button
+                className="btn-checkout"
+                onClick={[Function]}
+              >
+                <span
+                  className="start-shopping-btn"
+                >
+                  <span>
+                    Start Shopping
+                  </span>
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;

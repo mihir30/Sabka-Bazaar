@@ -1,0 +1,103 @@
+$black:black;
+$white:white;
+$green:#0fa;
+$pink:#cc0044;
+@mixin a-mixin {
+  background: $pink;
+  color: $white;
+  font-size: 12px;
+}
+
+@mixin a-child {
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+}
+
+dl,
+ol,
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.hamburgerMenu {
+  width: 80px;
+  height: 50px;
+  border-radius: 3px;
+  text-align: center;
+  color: $white;
+  line-height: 50px;
+  font-size: 26px;
+  cursor: pointer;
+  margin: 0 auto 0px;
+}
+
+.dropdownWrap {
+  z-index: 1;
+  // width: 60%;
+  left: 10px;
+  position: absolute;
+  display: none;
+  margin-left: 0px;
+  border: 2px solid $black;
+  margin-top: 10px;
+
+  ul {
+    li {
+      position: relative;
+      border: 1px solid $black;
+
+      a {
+        display: block;
+        background: #EAEAEA;;
+        color: #000;
+        padding: 20px 25px;
+        width: 100%;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        font-size: 12px;
+        text-decoration: none;
+
+        &:hover {
+          @include a-mixin();
+        }
+      }
+
+      a.active {
+        @include a-mixin();
+      }
+
+      &:first-child {
+        a {
+          @include a-child();
+        }
+      }
+
+      &:last-child {
+        a {
+          @include a-child();
+        }
+      }
+    }
+  }
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: -33px;
+    left: 123px;
+    transform: translateX(-370%);
+    border: 15px solid;
+    border-color: transparent transparent lightgrey transparent;
+    z-index: 1;
+  }
+}
+
+.active {
+  display: block;
+}
+
+.miniCart {
+  display: none;
+}

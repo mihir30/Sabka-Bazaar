@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App wide context provider component should have the right app wide context provider component snapshot 1`] = `null`;

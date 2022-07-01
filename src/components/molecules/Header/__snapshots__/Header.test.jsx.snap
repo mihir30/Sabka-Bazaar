@@ -1,0 +1,250 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header Component should have the right header component snapshot 1`] = `
+<header
+  aria-label="header"
+  className="header"
+>
+  <div
+    className="header-box"
+  >
+    <section
+      className="wrapper"
+    >
+      <section
+        className="menu"
+      >
+        <div
+          className="hamburgerMenu"
+          onClick={[Function]}
+        >
+          <img
+            alt="Menu Collapsed"
+            className="menuCollapsed"
+            height={32}
+            src="https://cdn.iconscout.com/icon/free/png-256/hamburger-menu-462145.png"
+            width={32}
+          />
+        </div>
+        <nav
+          className="dropdownWrap "
+        >
+          <ul
+            onClick={[Function]}
+          >
+            <ul
+              className="navigation"
+            >
+              <li>
+                <a
+                  activeclassname="active"
+                  aria-current="page"
+                  className="menuItem active"
+                  href="/"
+                  onClick={[Function]}
+                >
+                  HOME
+                </a>
+              </li>
+              <li>
+                <a
+                  activeclassname="active"
+                  className="menuItem"
+                  href="/products"
+                  onClick={[Function]}
+                >
+                  PRODUCTS
+                </a>
+              </li>
+              <li>
+                <a
+                  activeclassname="active"
+                  className="menuItem"
+                  href="/login"
+                  onClick={[Function]}
+                >
+                  SIGN IN
+                </a>
+              </li>
+              <li>
+                <a
+                  activeclassname="active"
+                  className="menuItem"
+                  href="/register"
+                  onClick={[Function]}
+                >
+                  REGISTER
+                </a>
+              </li>
+            </ul>
+          </ul>
+        </nav>
+      </section>
+    </section>
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      <img
+        alt="sabka bazaar"
+        className="logo"
+        data-testid="image"
+        src="logo.png"
+      />
+    </a>
+    <nav
+      className="header-nav"
+    >
+      <a
+        className="nav-links links"
+        href="/"
+        onClick={[Function]}
+      >
+        Home
+      </a>
+      <a
+        className="nav-links links"
+        href="/products/"
+        onClick={[Function]}
+      >
+        Products
+      </a>
+    </nav>
+    <div
+      className="hello-message-wrapper"
+    >
+      <span
+        className="hello-message"
+      >
+        <div />
+      </span>
+      <div
+        className="header-nav-wrapper"
+      >
+        <nav
+          className="header-nav-login"
+        >
+          <a
+            className="nav-login-links links"
+            href="/login"
+            onClick={[Function]}
+          >
+            SignIn
+          </a>
+          <a
+            className="nav-login-links links"
+            href="/register"
+            onClick={[Function]}
+          >
+            Register
+          </a>
+          <div />
+        </nav>
+        <div
+          className="cart-btn"
+        >
+          <a
+            className="nav-cart-items"
+            href="/cartItems"
+            onClick={[Function]}
+          >
+            <button
+              className="btn-cart-button"
+              onClick={[Function]}
+              type="button"
+            >
+              <img
+                alt="cart"
+                className="cart"
+                data-testid="image"
+                src="cart.svg"
+              />
+              <span
+                className="cart-quantity"
+                data-testid="count-items"
+              >
+                0 items
+              </span>
+            </button>
+          </a>
+        </div>
+        <div
+          className="cart-modal-overlay"
+        >
+          <div
+            className="cart-modal"
+          >
+            <div
+              className="minicart-modal-background"
+            >
+              <div
+                className="minicart-empty"
+              >
+                <div
+                  className="cart-quantity-tile"
+                >
+                  <p>
+                    <strong
+                      data-testid="my-cart-text"
+                    >
+                      My Cart 
+                    </strong>
+                  </p>
+                </div>
+                <div
+                  className="cart-quantity-tile-modal"
+                >
+                  <p>
+                    <strong
+                      data-testid="my-cart-text-modal"
+                    >
+                      My Cart 
+                    </strong>
+                  </p>
+                  <i
+                    className="fas fa-times"
+                    id="close-btn-empty-cart"
+                    onClick={[Function]}
+                  />
+                </div>
+                <div>
+                  <p
+                    className="empty-cart-text"
+                    data-testid="no-items"
+                  >
+                    No items in your cart
+                  </p>
+                  <p
+                    className="empty-cart-desc"
+                    data-testid="fav-items"
+                  >
+                    Your favourite items are just a click away
+                  </p>
+                </div>
+                <div
+                  className="checkout-empty-tile"
+                >
+                  <div>
+                    <button
+                      className="btn-checkout"
+                      onClick={[Function]}
+                    >
+                      <span
+                        className="start-shopping-btn"
+                      >
+                        <span>
+                          Start Shopping
+                        </span>
+                      </span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+`;

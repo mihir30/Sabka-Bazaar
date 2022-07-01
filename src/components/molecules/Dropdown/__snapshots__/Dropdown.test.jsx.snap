@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checking test for Dropdown 1`] = `
+<select
+  className="category-dropdown-content"
+>
+  <option
+    value="Default"
+  >
+    All Products
+  </option>
+</select>
+`;
+
+

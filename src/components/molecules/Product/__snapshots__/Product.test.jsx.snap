@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Product Component should give the right product component snapshot 1`] = `
+<div
+  className="product"
+  id="product5b6c6a7f01a7c38429530883"
+>
+  <h2
+    className="item"
+  >
+    Fresho Kiwi - Green, 3 pcs
+  </h2>
+  <div
+    className="img-desc-btn"
+  >
+    <div
+      className="image-box"
+    >
+      <div
+        className="images5b6c6a7f01a7c38429530883"
+      >
+        <img
+          alt="Image 5b6c6a7f01a7c38429530883"
+          className="product-images"
+          data-testid="image"
+          src="kiwi-green.jpg"
+        />
+      </div>
+    </div>
+    <div
+      className="text-box"
+      data-testid="product-card-component"
+    >
+      <div
+        className="product-description"
+      >
+        Some dummy text
+      </div>
+      <div
+        className="price-and-buy-now-btn"
+      >
+        <h3
+          className="price"
+          id="productPrice5b6c6a7f01a7c38429530883"
+        >
+          MRP Rs.
+          87
+        </h3>
+        <button
+          className="btn-BuyNow"
+          onClick={[Function]}
+        >
+          Buy Now
+        </button>
+      </div>
+      <div>
+        <button
+          className="btn-buynow-tab-phone"
+          onClick={[Function]}
+        >
+          Buy Now @ MRP Rs.87
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

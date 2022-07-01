@@ -1,0 +1,162 @@
+@mixin align-center() {
+    text-align: center;
+    vertical-align: middle;
+}
+
+@mixin border-style() {
+    border: 2px solid black;
+}
+
+.products {
+    @include border-style();
+    margin: 110px 10px 10px;
+}
+
+.btn-BuyNow {
+    display: none;
+}
+
+.btn-buynow-tab-phone {
+    display: block;
+    padding: 5px 5px;
+    background: #cc0044;
+    color: white;
+    border-radius: 2px;
+    font-weight: 700;
+    margin-top: 30px;
+    font-size: 15px;
+    height: 35px;
+    width: 210px;
+    border-color: #cc0044;
+}
+
+.price {
+    display: none;
+}
+
+.products .product-heading {
+    padding: 10px 0 0 20px;
+}
+
+.products-heading {
+    padding-left: 3%;
+}
+
+.product-description {
+    overflow-y: scroll;
+    padding: 5px;
+    width: 100%;
+    height: 80px;
+    border-radius: 5px;
+    text-align: justify;
+    background: #e7e5e5de;
+    padding: 2px;
+    font-weight: 550;
+}
+
+.product-description::-webkit-scrollbar {
+    display: none;
+}
+
+.item {
+
+    text-align: start;
+    text-decoration: none;
+    font-size: 20px;
+    height: 75px;
+}
+
+.product {
+    padding: 2px;
+    height: 100%;
+    display: inline-block;
+    border-radius: 5px;
+    box-shadow: 5px 0px 10px 0px #9e9e9e;
+    border-right: 1px solid rgba(0, 0, 0, 0.5);
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.5);
+    margin: 0px 15px 25px 15px;
+}
+
+.img-desc-btn {
+    display: flex;
+}
+
+.product-description {
+    display: block;
+}
+
+.product-images {
+    width: 125px;
+    height: 150px;
+}
+
+.text-box {
+    margin-left: 5px;
+}
+
+@media (min-width: 768px) {
+    .btn-buynow-tab-phone {
+        margin-top: 10px;
+        margin-left: -100px;
+        width: 295px;
+        text-align: center;
+    }
+
+    .product-images {
+        width: 100px;
+        height: 100px;
+    }
+
+    .product-description {
+        height: 100px;
+        margin: 0px -3px;
+    }
+
+    .btn-buynow-tab-phone {
+        margin-top: 10px;
+    }
+
+    .product-images {
+        height: 110px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .img-desc-btn {
+        display: block;
+    }
+
+    .product-images {
+        width: 250px;
+        height: 250px;
+    }
+
+    .price {
+        display: block;
+        margin-top: 10px;
+        margin-right: 60px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .btn-buynow-tab-phone {
+        display: none;
+    }
+
+    .btn-BuyNow {
+        display: block;
+        padding: 10px 20px;
+        background: #cc0044;
+        color: white;
+        border-radius: 2px;
+        font-weight: 700;
+        font-size: 15px;
+        border-color: #cc0044;
+    }
+
+    .price-and-buy-now-btn {
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+    }
+}

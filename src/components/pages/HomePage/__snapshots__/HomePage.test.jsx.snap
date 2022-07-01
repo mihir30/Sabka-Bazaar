@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`category component should have right Category component snapshot 1`] = `
+<div
+  aria-label="homepage-container"
+>
+  <div
+    aria-label="homepage-carousel"
+  >
+    <section
+      className="carousel-section"
+    >
+      <div
+        className="spinner-overlay"
+      >
+        <div
+          className="spinner-container"
+        />
+      </div>
+      <button
+        className="carousel-prev-button carousel-button"
+        onClick={[Function]}
+        type="button"
+      >
+        PREV
+      </button>
+      <button
+        className="carousel-next-button carousel-button"
+        onClick={[Function]}
+        type="button"
+      >
+        NEXT
+      </button>
+      <div
+        className="banner-dots-container desktop"
+      />
+    </section>
+    <div
+      className="banner-dots-container mobile"
+    />
+  </div>
+  <div
+    aria-label="homepage-categories"
+  >
+    <div
+      className="spinner-overlay"
+    >
+      <div
+        className="spinner-container"
+      />
+    </div>
+  </div>
+</div>
+`;
